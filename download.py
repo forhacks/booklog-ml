@@ -13,9 +13,6 @@ def get_book(i):
     except:
         return None
 
-num_threads = 2
-vectors = []
-
 for i in range(10000):
     get_book(i)
     print(i)
